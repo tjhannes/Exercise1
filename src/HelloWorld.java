@@ -8,9 +8,13 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+<<<<<<< HEAD
 		System.out.println("Hello ASE2017 - How are you? :)");
 		name = readString("Name: ");
 		HelloUser.greetUser(name);
+=======
+		System.out.println("Hello ASE2017 - How are you now? :)");
+>>>>>>> refs/heads/master
 	}
 	
 	public static String readString(String text) {
