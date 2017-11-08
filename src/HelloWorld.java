@@ -17,7 +17,7 @@ public class HelloWorld {
 		
 		user1.greetUser();
 
-		System.out.println("Hello ASE2017 - How are you now? :)");
+		//System.out.println("Hello ASE2017 - How are you now? :)");
 
 	}
 	

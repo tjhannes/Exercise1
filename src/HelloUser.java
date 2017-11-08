@@ -8,6 +8,6 @@ public class HelloUser {
 	}
 	
 	public void greetUser(){
-		System.out.println("Hello "+username+" - How are you? :)");
+		System.out.println("Hello "+username+"!");
 	}
 }
