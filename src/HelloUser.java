@@ -1,8 +1,13 @@
 
 public class HelloUser {
 
+	private String username;
 	
-	public static void greetUser(String name){
-		System.out.println("Hello "+name+" - How are you? :)");
+	public HelloUser(String pUserName){
+		username = pUserName;
+	}
+	
+	public void greetUser(){
+		System.out.println("Hello "+username+" - How are you? :)");
 	}
 }

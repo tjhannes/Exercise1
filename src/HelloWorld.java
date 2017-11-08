@@ -1,20 +1,24 @@
+import java.util.Scanner;
+
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
 
 public class HelloWorld {
-	
-	static String name;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-<<<<<<< HEAD
 		System.out.println("Hello ASE2017 - How are you? :)");
-		name = readString("Name: ");
-		HelloUser.greetUser(name);
-=======
+	
+		System.out.print("Please enter your name:");
+		Scanner in = new Scanner(System.in);
+		String name = in.nextLine();  //name = readString("Name: ");
+		HelloUser user1 = new HelloUser(name);
+		
+		user1.greetUser();
+
 		System.out.println("Hello ASE2017 - How are you now? :)");
->>>>>>> refs/heads/master
+
 	}
 	
 	public static String readString(String text) {
